@@ -1,59 +1,46 @@
 <div align="center">
-  <h1 align="center">🚀 Lupo's AI Job Hunt Playbook</h1>
+  <h1 align="center">LUPO | AI JOB HUNT PLAYBOOK</h1>
   <p align="center">
-    <b>The ultimate, AI-powered digital guide for elite tech sales pros.<br/>
-    Land your next role with strategy, insight, and style.</b>
+    <b>Editorial, minimal, and built for outcomes.<br/>
+    A 2026-grade job search system for tech sales.</b>
   </p>
   <p align="center">
     <a href="https://localwolfpackai.github.io/ai-job-hunt-playbook/">
-      <img src="https://img.shields.io/badge/Live%20Demo-Online-00F5D4?style=for-the-badge&logo=github" alt="Live Demo"/>
+      <img src="https://img.shields.io/badge/Live%20Demo-Online-0A0B0D?style=for-the-badge&logo=github" alt="Live Demo"/>
     </a>
     <img src="https://img.shields.io/github/license/localwolfpackai/ai-job-hunt-playbook?style=for-the-badge" alt="License"/>
-    <img src="https://img.shields.io/github/languages/top/localwolfpackai/ai-job-hunt-playbook?style=for-the-badge" alt="Top Language"/>
   </p>
-  <img src="https://i.imgur.com/tC6FfT8.jpeg" alt="Lupo Logo" width="120" style="border-radius:50%;margin:2rem 0;"/>
 </div>
 
 ---
 
-## ✨ Demo
+## DEMO
 
-👉 [View the Playbook Live](https://localwolfpackai.github.io/ai-job-hunt-playbook/)
-
----
-
-## 🧠 What is this?
-
-A modern, single-page React app that turns AI into your personal job search strategist. Designed for Account Executives and tech sales pros who want to:
-- Discover high-potential companies
-- Target AI-forward roles
-- Leverage prompt engineering for real results
-- Stand out in a crowded market
+[View the Playbook Live](https://localwolfpackai.github.io/ai-job-hunt-playbook/)
 
 ---
 
-## 🎯 Features
+## WHAT THIS IS
 
-- **Dark, sleek, and modern UI** (with subtle grid/node backgrounds)
-- **Copyable master prompt** for instant AI job search power
-- **Step-by-step workflow** for company targeting, role matching, and strategic positioning
-- **AI model strengths** (ChatGPT, Gemini, Claude, Perplexity)
-- **Pro tips & advanced tactics** for elite job seekers
-- **Responsive & mobile-friendly**
+A single-page React app with an editorial UI and a compact, high-signal playbook for Account Executives:
+
+- Targeting and diligence that avoids low-signal roles
+- Copyable templates (outreach, recruiter replies, 30/60/90, brag doc)
+- A low-noise resource vault for research and workflow leverage
 
 ---
 
-## 🛠️ Tech Stack
+## TECH STACK
 
-- [React 18](https://react.dev/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Emotion](https://emotion.sh/docs/introduction)
-- [gh-pages](https://www.npmjs.com/package/gh-pages) (for deployment)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [gh-pages](https://www.npmjs.com/package/gh-pages) (deployment)
 
 ---
 
-## 🚦 Quick Start
+## QUICK START
 
 ```bash
 # 1. Clone the repo
@@ -73,21 +60,15 @@ A modern, single-page React app that turns AI into your personal job search stra
 
 ---
 
-## 📝 Customization
-- Edit your workflow, prompt, and findings in the `/src/components` directory.
-- Update the color palette and fonts in `src/index.css`.
-- Add your own logo or branding for a personal touch.
+## CUSTOMIZATION
+
+- Update the page content in `src/App.tsx`
+- Update theme tokens + base styles in `src/index.css`
+- Deployment base path lives in `vite.config.js`
 
 ---
 
-## 🙏 Credits
+## BRANDING
 
-- Built by [@localwolfpackai](https://github.com/localwolfpackai)
-- Logo by Lupo
-- Inspired by the future of AI-driven careers
-
----
-
-<div align="center">
-  <sub>Made with 💡, ☕, and a touch of AI magic.</sub>
-</div>
+- Footer includes: `Lupo Studios © 2026`
+- Logo fallback is text `LUPO` in IBM Plex Mono
